@@ -123,7 +123,7 @@ export default function LandingPage() {
                   title="Jollof Special Series"
                   description="Master the art of cooking Nigeria's most iconic dish in three distinct styles"
                   items={["Classic Party Jollof", "Firewood Jollof Rice", "Native Palm Oil Jollof"]}
-                  image="/images/jollof-rice.jpg"
+                  image="/images/Jollof-Rice.jpg"
                 />
               </TabsContent>
 
