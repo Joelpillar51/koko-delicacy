@@ -185,7 +185,7 @@ export default function LandingPage() {
                     "Meat Pie (Flaky & Rich)",
                     "Small Chops Platter",
                   ]}
-                  image="/images/zobo-drink.jpg"
+                  image="/images/zobo.jpg"
                 />
               </TabsContent>
             </Tabs>
