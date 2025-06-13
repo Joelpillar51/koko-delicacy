@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="blenderBase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#34495e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a252f;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blenderJar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ecf0f1;stop-opacity:0.9" />
+      <stop offset="50%" style="stop-color:#bdc3c7;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#95a5a6;stop-opacity:0.7" />
+    </linearGradient>
+    <linearGradient id="liquidGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#c0392b;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#a93226;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f8f9fa"/>
+  
+  <!-- Base Shadow -->
+  <ellipse cx="200" cy="350" rx="80" ry="15" fill="#000" opacity="0.1"/>
+  
+  <!-- Blender Base -->
+  <rect x="130" y="280" width="140" height="80" rx="10" ry="10" fill="url(#blenderBase)"/>
+  
+  <!-- Base Details -->
+  <rect x="140" y="295" width="120" height="50" rx="5" ry="5" fill="#1a252f"/>
+  <rect x="150" y="305" width="100" height="30" rx="3" ry="3" fill="#34495e"/>
+  
+  <!-- Control Panel -->
+  <circle cx="180" cy="320" r="8" fill="#e74c3c"/>
+  <circle cx="200" cy="320" r="8" fill="#f39c12"/>
+  <circle cx="220" cy="320" r="8" fill="#27ae60"/>
+  
+  <!-- Speed Indicator -->
+  <rect x="235" y="315" width="15" height="10" rx="2" ry="2" fill="#3498db"/>
+  
+  <!-- Blender Jar -->
+  <path d="M 150 280 L 250 280 L 240 120 L 160 120 Z" fill="url(#blenderJar)" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- Jar Rim -->
+  <ellipse cx="200" cy="120" rx="40" ry="8" fill="#34495e"/>
+  
+  <!-- Liquid Inside -->
+  <path d="M 160 250 L 240 250 L 235 180 L 165 180 Z" fill="url(#liquidGradient)"/>
+  
+  <!-- Liquid Surface -->
+  <ellipse cx="200" cy="180" rx="35" ry="6" fill="#e74c3c" opacity="0.9"/>
+  
+  <!-- Blades -->
+  <g transform="translate(200, 270)">
+    <circle r="15" fill="#7f8c8d"/>
+    <rect x="-12" y="-2" width="24" height="4" rx="2" ry="2" fill="#2c3e50"/>
+    <rect x="-2" y="-12" width="4" height="24" rx="2" ry="2" fill="#2c3e50"/>
+    <circle r="3" fill="#34495e"/>
+  </g>
+  
+  <!-- Handle -->
+  <rect x="250" y="180" width="15" height="60" rx="7" ry="7" fill="#34495e"/>
+  <rect x="245" y="190" width="25" height="40" rx="12" ry="12" fill="none" stroke="#34495e" stroke-width="8"/>
+  
+  <!-- Lid -->
+  <ellipse cx="200" cy="120" rx="42" ry="10" fill="#2c3e50"/>
+  <circle cx="200" cy="115" r="8" fill="#34495e"/>
+  
+  <!-- Glass Reflections -->
+  <path d="M 170 130 Q 180 140 170 200 Q 165 150 170 130" fill="#fff" opacity="0.3"/>
+  <path d="M 230 140 Q 235 160 230 220 Q 225 180 230 140" fill="#fff" opacity="0.2"/>
+  
+  <!-- Brand Logo Area -->
+  <rect x="180" y="300" width="40" height="15" rx="3" ry="3" fill="#1a252f"/>
+  
+  <!-- Text -->
+  <text x="200" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">High-Speed Blender</text>
+</svg> 
