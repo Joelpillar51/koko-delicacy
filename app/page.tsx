@@ -185,7 +185,7 @@ export default function LandingPage() {
                     "Meat Pie (Flaky & Rich)",
                     "Small Chops Platter",
                   ]}
-                  image="/images/zobo.jpg"
+                  image="/images/zobo-drink.jpg"
                 />
               </TabsContent>
             </Tabs>
@@ -232,6 +232,131 @@ export default function LandingPage() {
                   </div>
                 </div>
                 <Button className="bg-[#E8630A] hover:bg-[#d05a09] text-white">Learn More About Chef KOKO</Button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Business Credibility Section */}
+        <section className="py-16 bg-[#FFF7ED]">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <div className="text-center mb-12 animate-fade-in">
+                <Badge className="mb-2 bg-[#E8630A] hover:bg-[#d05a09] text-white transform hover:scale-105 transition-transform duration-200">
+                  Fully Licensed & Registered
+                </Badge>
+                <h2 className="text-3xl font-bold mb-4 transform hover:scale-105 transition-transform duration-300">
+                  A Legally Registered Nigerian Business
+                </h2>
+                <p className="text-gray-600 max-w-2xl mx-auto">
+                  Koko's Delicacy is officially registered with the Federal Republic of Nigeria's Corporate Affairs Commission, 
+                  ensuring you're learning from a legitimate and professional culinary business.
+                </p>
+              </div>
+
+              <div className="flex flex-col lg:flex-row items-center gap-8">
+                <div className="w-full lg:w-1/2">
+                  <div className="bg-white p-8 rounded-lg shadow-xl">
+                    <Image
+                      src="/images/business-certificate.jpg"
+                      alt="Koko's Delicacy Business Registration Certificate"
+                      width={500}
+                      height={700}
+                      className="w-full rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+                    />
+                  </div>
+                </div>
+                
+                <div className="w-full lg:w-1/2">
+                  <div className="space-y-6">
+                    <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                      <div className="flex items-start gap-4">
+                        <div className="bg-[#E8630A] text-white p-3 rounded-full">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path d="M9 12l2 2 4-4"></path>
+                            <path d="M21 12c.552 0 1-.448 1-1V8c0-.552-.448-1-1-1H3c-.552 0-1 .448-1 1v3c0 .552.448 1 1 1h18z"></path>
+                            <path d="M3 7V5c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v2"></path>
+                          </svg>
+                        </div>
+                        <div>
+                          <h3 className="font-bold text-lg mb-2">Official Business Registration</h3>
+                          <p className="text-gray-600 text-sm">
+                            Business Name Registration No. <strong>8551607</strong> with the Corporate Affairs Commission
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                      <div className="flex items-start gap-4">
+                        <div className="bg-[#E8630A] text-white p-3 rounded-full">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                          </svg>
+                        </div>
+                        <div>
+                          <h3 className="font-bold text-lg mb-2">Legitimate Cooking Services</h3>
+                          <p className="text-gray-600 text-sm">
+                            Officially licensed to provide cooking services and culinary education across Nigeria
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                      <div className="flex items-start gap-4">
+                        <div className="bg-[#E8630A] text-white p-3 rounded-full">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                            <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                          </svg>
+                        </div>
+                        <div>
+                          <h3 className="font-bold text-lg mb-2">Registered Address</h3>
+                          <p className="text-gray-600 text-sm">
+                            21 Campus 1 Road, Abraka, Delta State - Official business location
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="bg-[#E8630A] text-white p-6 rounded-lg">
+                      <p className="font-medium text-center">
+                        🏆 You're learning from a professionally registered and government-approved culinary business
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -635,8 +760,50 @@ export default function LandingPage() {
               </Link>
             </div>
           </div>
-          <div className="mt-8 pt-8 border-t border-gray-800 text-center text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} Koko's Delicacy. All rights reserved.
+          
+          {/* Business Registration Badge */}
+          <div className="mt-8 pt-8 border-t border-gray-800 flex flex-col items-center">
+            <div className="flex items-center justify-center gap-4 mb-4">
+              <div className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-lg">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="text-[#E8630A]"
+                >
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+                <span className="text-sm font-medium">CAC Registered Business</span>
+              </div>
+              <div className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-lg">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="text-[#E8630A]"
+                >
+                  <path d="M9 12l2 2 4-4"></path>
+                  <path d="M21 12c.552 0 1-.448 1-1V8c0-.552-.448-1-1-1H3c-.552 0-1 .448-1 1v3c0 .552.448 1 1 1h18z"></path>
+                  <path d="M3 7V5c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v2"></path>
+                </svg>
+                <span className="text-sm font-medium">Reg. No. 8551607</span>
+              </div>
+            </div>
+            <div className="text-center text-sm text-gray-500">
+              &copy; {new Date().getFullYear()} Koko's Delicacy. All rights reserved.
+            </div>
           </div>
         </div>
       </footer>
