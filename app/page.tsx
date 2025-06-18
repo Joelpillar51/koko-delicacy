@@ -258,7 +258,7 @@ export default function LandingPage() {
                 <div className="w-full lg:w-1/2">
                   <div className="bg-white p-8 rounded-lg shadow-xl">
                     <Image
-                      src="/images/business.jpg"
+                      src="/images/business-certificate.jpg"
                       alt="Koko's Delicacy Business Registration Certificate"
                       width={500}
                       height={700}
