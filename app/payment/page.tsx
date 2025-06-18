@@ -175,7 +175,7 @@ export default function PaymentPage() {
                 </p>
                 
                 <a
-                  href="https://wa.link/x7lixk"
+                  href="https://wa.link/52u9xh"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full"
