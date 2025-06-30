@@ -97,23 +97,23 @@ export default function LandingPage() {
             </div>
 
             <Tabs defaultValue="jollof" className="w-full max-w-4xl mx-auto">
-              <TabsList className="grid grid-cols-5 mb-8">
-                <TabsTrigger value="jollof" className="data-[state=active]:bg-[#E8630A] data-[state=active]:text-white">
+              <TabsList className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2 mb-8 h-auto p-2">
+                <TabsTrigger value="jollof" className="data-[state=active]:bg-[#E8630A] data-[state=active]:text-white text-xs sm:text-sm whitespace-nowrap px-2 sm:px-4 py-2">
                   Jollof Special
                 </TabsTrigger>
-                <TabsTrigger value="soups" className="data-[state=active]:bg-[#E8630A] data-[state=active]:text-white">
+                <TabsTrigger value="soups" className="data-[state=active]:bg-[#E8630A] data-[state=active]:text-white text-xs sm:text-sm whitespace-nowrap px-2 sm:px-4 py-2">
                   Swallow & Soup
                 </TabsTrigger>
                 <TabsTrigger
                   value="protein"
-                  className="data-[state=active]:bg-[#E8630A] data-[state=active]:text-white"
+                  className="data-[state=active]:bg-[#E8630A] data-[state=active]:text-white text-xs sm:text-sm whitespace-nowrap px-2 sm:px-4 py-2"
                 >
                   Protein
                 </TabsTrigger>
-                <TabsTrigger value="street" className="data-[state=active]:bg-[#E8630A] data-[state=active]:text-white">
+                <TabsTrigger value="street" className="data-[state=active]:bg-[#E8630A] data-[state=active]:text-white text-xs sm:text-sm whitespace-nowrap px-2 sm:px-4 py-2">
                   Street Food
                 </TabsTrigger>
-                <TabsTrigger value="bonus" className="data-[state=active]:bg-[#E8630A] data-[state=active]:text-white">
+                <TabsTrigger value="bonus" className="data-[state=active]:bg-[#E8630A] data-[state=active]:text-white text-xs sm:text-sm whitespace-nowrap px-2 sm:px-4 py-2">
                   Bonus
                 </TabsTrigger>
               </TabsList>
@@ -185,7 +185,7 @@ export default function LandingPage() {
                     "Meat Pie (Flaky & Rich)",
                     "Small Chops Platter",
                   ]}
-                  image="/images/zobo.jpg"
+                  image="/images/zobo-drink.jpg"
                 />
               </TabsContent>
             </Tabs>
