@@ -196,7 +196,7 @@ export default function PaymentPage() {
           </Card>
 
           {/* Important Notes */}
-          <Card className="shadow-xl border-0">
+          <Card className="mb-6 shadow-xl border-0">
             <CardContent className="p-6">
               <h3 className="font-semibold text-lg mb-4 flex items-center gap-2">
                 <Shield className="w-5 h-5 text-[#E8630A]" />
@@ -220,6 +220,56 @@ export default function PaymentPage() {
                   <span>You'll receive immediate access to all course materials once verified.</span>
                 </li>
               </ul>
+            </CardContent>
+          </Card>
+
+          {/* Non-Nigerians Section */}
+          <Card className="shadow-xl border-0 bg-gradient-to-r from-blue-50 to-indigo-50 border-2 border-blue-200">
+            <CardHeader className="bg-blue-600 text-white rounded-t-lg">
+              <CardTitle className="flex items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="w-5 h-5"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                  <path d="M2 12h20"></path>
+                </svg>
+                For Non-Nigerians
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="p-6">
+              <div className="space-y-4">
+                <p className="text-gray-700 text-center">
+                  For Non Nigerians, Click the button below to register for the class
+                </p>
+                
+                <a
+                  href="https://wa.link/52u9xh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full"
+                >
+                  <Button className="w-full bg-green-600 hover:bg-green-700 text-white py-6 text-lg">
+                    <MessageCircle className="w-5 h-5 mr-2" />
+                    Message on WhatsApp
+                  </Button>
+                </a>
+
+                <div className="text-center">
+                  <p className="text-sm text-gray-600">
+                    Contact us directly for international payment options and class access
+                  </p>
+                </div>
+              </div>
             </CardContent>
           </Card>
         </div>
